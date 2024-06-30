@@ -1,0 +1,5 @@
+Temel olarak, TCP sunucu istemci ile sürekli bir bağlantı üzerinden iletişim kurar ve veri akışını sağlar, 
+UDP sunucu ise bağlantısız bir protokol kullanarak veri paketlerini alır ve gönderir. 
+Bu nedenle, uygulamanın ihtiyaçlarına bağlı olarak uygun protokol seçilmelidir. 
+TCP, güvenilir ve sıralı veri iletimi sağlar, ancak bağlantı kurma maliyeti ve işlem yükü vardır. 
+UDP ise daha hafif ve esnek bir protokoldür, ancak veri kaybı riski vardır ve paketlerin sıralı olarak gelmeyebilir.

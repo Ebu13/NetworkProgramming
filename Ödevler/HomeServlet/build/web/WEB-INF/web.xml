@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>homeservlet.servlet.HomeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PersonelEkleServlet</servlet-name>
+        <servlet-class>homeservlet.servlet.PersonelEkleServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PersonelListeleServlet</servlet-name>
+        <servlet-class>homeservlet.servlet.PersonelListeleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/HomeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PersonelEkleServlet</servlet-name>
+        <url-pattern>/PersonelEkleServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PersonelListeleServlet</servlet-name>
+        <url-pattern>/PersonelListeleServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

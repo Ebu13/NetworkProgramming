@@ -1,0 +1,38 @@
+OSI (Open Systems Interconnection), bir bilgisayar ağı için standart bir modeldir. 
+Bu model, bilgisayar iletişiminin farklı katmanlarını birbirinden ayırarak ağ iletişimini daha iyi anlamak ve yönetmek için tasarlanmıştır. 
+OSI modeli, Uluslararası Elektroteknik Komisyonu (IEC) tarafından oluşturulmuş bir referans modelidir.
+
+OSI modeli, ağ iletişiminin her aşamasını farklı katmanlara böler. Her katman, belirli bir işlevi yerine getirir ve üst katmana hizmet sağlar. 
+Aşağıdaki yedi katmandan oluşur:
+
+1. **Fiziksel Katman (Physical Layer)**: 
+	
+	Veri iletiminde kullanılan fiziksel ortamı tanımlar. Elektrik sinyalleri, kablosuz iletim ve fiber optik gibi teknolojiler bu katmanda yer alır.
+
+2. **Veri Bağlantı Katmanı (Data Link Layer)**: 
+
+	Veri iletimini yönetir ve fiziksel ortam üzerinde güvenilir bir iletişim sağlar. Veri çerçevelerini (frames) yönetir ve hata kontrolü yapar.
+
+3. **Ağ Katmanı (Network Layer)**: 
+
+	Veri paketlerini alıcıya yönlendirir ve ağdaki en uygun yolun bulunmasını sağlar. IP adreslemesi ve yönlendirme bu katmanda gerçekleşir.
+
+4. **Taşıma Katmanı (Transport Layer)**: 
+
+	Veri akışını sağlar ve güvenilir bir iletişim sağlar. Veri akış kontrolü, hata kontrolü ve segmentasyon bu katmanda gerçekleşir. TCP ve UDP bu katmanda çalışır.
+
+5. **Oturum Katmanı (Session Layer)**: 
+
+	İletişim kurallarını belirler ve oturumları yönetir. Bağlantı kurma, sürdürme ve sonlandırma gibi işlemleri gerçekleştirir.
+
+6. **Sunum Katmanı (Presentation Layer)**: 
+
+	Verinin biçimini dönüştürür ve işler. Veri sıkıştırma, şifreleme ve format dönüştürme gibi işlemleri bu katmanda gerçekleştirir.
+
+7. **Uygulama Katmanı (Application Layer)**: 
+
+	Kullanıcıların ağa erişmesini sağlar. Protokoller, uygulamalar ve kullanıcı arayüzleri bu katmanda yer alır.
+
+Her katman, üstündeki katmanla iletişim kurar ve altındaki katmana hizmet sağlar. 
+Bu katmanlaşma, ağ iletişimini daha modüler hale getirir ve farklı katmanlarda değişiklik yapılmasını kolaylaştırır. 
+Her katmanın belirli bir işlevi olması, ağ iletişiminin daha iyi anlaşılmasını ve sorunların daha etkili bir şekilde çözülmesini sağlar.
